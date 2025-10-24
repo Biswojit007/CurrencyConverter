@@ -1,0 +1,257 @@
+//* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#f4e4ba
+
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh
+
+
+}
+form{
+    margin:2rem 0 1rem 0;
+
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    border: radius 0.75rem;
+    
+
+}
+form input{
+    border: 1px solid lightgray;
+    height:1.5rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.select-container img{
+    max-width:1.75rem;
+
+
+
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+     border: 1px solid lightgray;
+    width: 6rem;
+    /* background-color: red; */
+
+/* }
+.dropdown i{
+    font-size: 1rem;
+  
+}
+.msg{
+    margin:2rem 0 2rem 0;
+}
+form button {
+    height: 2rem;
+    cursor: pointer;
+    background-color:lightgrey;
+    color:rgb(32, 31, 31);
+
+} */
+
+
+
+/* styling two */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body background with gradient */
+body {
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Glassmorphism container */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2.2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  width: 380px;
+  max-width: 95%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Input amount */
+.amount {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.amount p {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  color: #ffe6f7;
+}
+
+.amount input {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.amount input:focus {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px #ff6ec4;
+}
+
+/* Dropdowns */
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.dropdown p {
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ffe6f7;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 0.5rem 0.7rem;
+  background: rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease;
+}
+
+.select-container:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 8px #fad0c4;
+}
+
+.select-container img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.select-container select {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+}
+
+.select-container select option {
+  color: #333;
+}
+
+/* Arrow */
+.dropdown i {
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 0 14px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Exchange rate box */
+.msg {
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.9rem;
+  border-radius: 12px;
+  color: #fff;
+  text-shadow: 0 0 6px #000;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
