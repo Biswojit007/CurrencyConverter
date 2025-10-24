@@ -1,83 +1,4 @@
-//* {
-    margin: 0;
-    padding: 0;
 
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color:#f4e4ba
-
-}
-.container{
-    background-color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh
-
-
-}
-form{
-    margin:2rem 0 1rem 0;
-
-}
-form select,button,input{
-    width: 100%;
-    border: none;
-    border: radius 0.75rem;
-    
-
-}
-form input{
-    border: 1px solid lightgray;
-    height:1.5rem;
-    padding-left: 0.5rem;
-}
-.dropdown{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-
-}
-.select-container img{
-    max-width:1.75rem;
-
-
-
-}
-.select-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem;
-     border: 1px solid lightgray;
-    width: 6rem;
-    /* background-color: red; */
-
-/* }
-.dropdown i{
-    font-size: 1rem;
-  
-}
-.msg{
-    margin:2rem 0 2rem 0;
-}
-form button {
-    height: 2rem;
-    cursor: pointer;
-    background-color:lightgrey;
-    color:rgb(32, 31, 31);
-
-} */
-
-
-
-/* styling two */
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -255,3 +176,4 @@ button:hover {
     transform: scale(1);
   }
 }
+
